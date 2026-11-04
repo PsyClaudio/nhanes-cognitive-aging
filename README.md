@@ -75,6 +75,16 @@ To open the report:
 2. The report uses the three CSV files in `NHANES_dashboard/`. To refresh the data on another computer, update the source paths in **Transform data → Data source settings** or in each Power Query source step.
 3. The missingness CSV stores percentages on a 0–100 scale: for example, `5.58` represents **5.58%**.
 
+### Dashboard preview
+
+#### Overview
+
+![Power BI dashboard overview showing delayed recall, missingness and adjusted model estimates](images/dashboard_overview.png)
+
+#### Detailed results
+
+![Power BI dashboard detailed results showing weighted means and model coefficients](images/dashboard_detailed_results.png)
+
 ## Run the notebook
 
 1. Open `nhanes_cognitive_aging_organized.ipynb` in Google Colab.
