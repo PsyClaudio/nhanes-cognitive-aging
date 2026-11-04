@@ -71,7 +71,7 @@ The age-specific means use the **1,452 primary-model complete cases**. The missi
 
 To open the report:
 
-1. Download the repository and open `NHANES_Cognitive_Aging_Dashboard.pbix` in Power BI Desktop.
+1. Download the repository and open `NHANES_Cognitive_Aging_Dashboard_EN.pbix` in Power BI Desktop.
 2. The report uses the three CSV files in `NHANES_dashboard/`. To refresh the data on another computer, update the source paths in **Transform data → Data source settings** or in each Power Query source step.
 3. The missingness CSV stores percentages on a 0–100 scale: for example, `5.58` represents **5.58%**.
 
@@ -87,7 +87,7 @@ Colab runtime storage is temporary. Internet access is required to download the 
 ## Repository structure
 
 - `nhanes_cognitive_aging_organized.ipynb` — analysis, checks and dashboard data export.
-- `NHANES_Cognitive_Aging_Dashboard.pbix` — Power BI report.
+- `NHANES_Cognitive_Aging_Dashboard_EN.pbix` — Power BI report.
 - `NHANES_dashboard/weighted_recall_by_age.csv` — weighted recall estimates by age.
 - `NHANES_dashboard/weighted_missingness_by_age.csv` — weighted missingness estimates by age.
 - `NHANES_dashboard/primary_model_coefficients.csv` — primary model coefficients and confidence intervals.
